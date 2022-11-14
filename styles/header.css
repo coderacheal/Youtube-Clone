@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(228, 228, 228);
+}
+
+#left-session {
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+
+}
+ 
+#middle-session {
+    flex: 1;
+    margin-left: 180px;
+    margin-right: 180px;
+    max-width: 450px;
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+}
+#right-session {
+    /* background-color: red; */
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+#bell-notification, #video-icon, #voice-icon, #menu, #search-icon, #upload-icon {
+    width: 25px;
+}
+#search-icon{
+    width: 20px;
+}
+#search-button {
+    margin: -1px;
+    height: 38px;
+    width: 65px;
+    margin-right: 15px;
+    border: solid;
+    border-width: 1px;
+    /* border- */
+    border-color: rgb(220, 218, 218);
+}
+#microphone {
+    height: 38px;
+    border-radius: 19px;
+    border: none;
+}
+
+#youtube-icon {
+    width: 90px;
+    margin-left: 25px;
+    
+}
+#search-bar {
+    flex: 1;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(220, 218, 218);
+    width: 0;
+}
+
+#search-bar::placeholder {
+    font-family: Roboto, arial;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#side-bar {
+    position: fixed;
+    bottom: 0;
+    top: 80px;
+    width: 110px;
+}
+
+#side-bar-home, #side-bar-shorts, #side-bar-subscription, #side-bar-library {
+    width: 30px;
+    display: block;
+    margin-left: 25px;
+    /* margin-bottom: 30px; */
+}
+#side-bar-shorts {
+    width: 35px;
+}
+#side-bar-home {
+    width:30px;
+}
+
+
+#side-bar-divs{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+#side-bar-names{
+    /* margin-left: 5px; */
+    font-size: 11px;
+    text-align: center; 
+}
